@@ -1,0 +1,32 @@
+
+        body{
+            margin: 0;
+            padding: 0;
+        }
+
+        .cont{
+            width: 100%;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(209, 255, 134);
+        }
+
+        .podsumowanie{
+            font-size: 40px;
+            width: 100%;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .line{
+            display: flex;
+            height: fit-content;
+        }
+
+        input, select, button{
+            padding: 5px;
+        }
