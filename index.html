@@ -1,15 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>kantor wiktorka</title>
+    <title>przelicznik walut</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="nav">
+        <ul>
+            <li>LOGO</li>
+        </ul>
+        <ul>
+            <li><a href="index.html">PRZELICZ WALUTY</a></li>
+            <li><a href="index.html">KURS WALUT</a></li>
+            <li><a href="index.html">KURS KRYPTOWALUT</a></li>
+            <li><a href="index.html">GIEŁDA</a></li>
+        </ul>
+        <ul>
+            <li>SOCIAL MEDIA</li>
+        </ul>
     </div>
     <div class="cont">
         <div class="visible">
@@ -19,23 +34,24 @@
                         <input type="text" placeholder="wpisz kwotę" id="kaska">
 
                         <select id="przeliczz">
-                            <option value="PLN">PLN</option>
-                            <option value="EUR">EUR</option>
-                            <option value="USD">USD</option>
-                            <option value="GBP">GBP</option>
-                            <option value="HUF">HUF</option>
-                            <option value="MDL">MDL</option>
+                            <option value="pln">PLN</option>
+                            <option value="eur">EUR</option>
+                            <option value="usd">USD</option>
+                            <option value="gbp">GBP</option>
+                            <option value="huf">HUF</option>
+                            <option value="mdl">MDL</option>
+                            <option value="rub">RUB</option>
                         </select>
-                        <a>przelicz na</a>
+                        <img src="img/arror-right-white.png" id="arrow-right">
                         <select id="przeliczna">
-                            <option value="PLN">PLN</option>
-                            <option value="EUR">EUR</option>
-                            <option value="USD">USD</option>
-                            <option value="GBP">GBP</option>
-                            <option value="HUF">HUF</option>
-                            <option value="MDL">MDL</option>          
+                            <option value="pln">PLN</option>
+                            <option value="eur">EUR</option>
+                            <option value="usd">USD</option>
+                            <option value="gbp">GBP</option>
+                            <option value="huf">HUF</option>
+                            <option value="mdl">MDL</option>         
                         </select>
-                        <button id="przelicz">przelicz</button>
+                        <button id="przelicz">PRZELICZ</button>
                     </div>
                 </div>
             </div>
